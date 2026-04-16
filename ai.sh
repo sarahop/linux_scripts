@@ -5,4 +5,4 @@ if [ $# -eq 0 ]; then
 fi 
 sudo apt update 
 sudo apt upgrade -y 
-sudo apt insatll -y $@
+sudo apt install -y $@
